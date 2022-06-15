@@ -1,10 +1,9 @@
 {
   "name": "git",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +11,17 @@
     "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "mongodb": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsalaski/crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsalaski/crud/issues"
+  },
+  "homepage": "https://github.com/jsalaski/crud#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
